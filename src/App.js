@@ -1,23 +1,58 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Accordian from "./components/accordian";
+import RandomColor from "./components/random-color";
+import StarRating from "./components/star-rating";
+import data from "./components/accordian/data";
+import { useState } from "react";
+import BasicCounter from "./practiceUseState/BasicCounter";
+import ToggleVisibility from "./practiceUseState/ToggleVisibility";
+import ChangeText from "./practiceUseState/ChangeText";
+import ToggleColor from "./practiceUseState/ToggleColor";
+import IncrementDecrement from "./practiceUseState/IncrementDecrement";
+import ToggleSwitch from "./practiceUseState/ToggleSwitch";
+import CharacterCounter from "./practiceUseState/CharacterCounter";
+import AddItemsToList from "./practiceUseState/AddItemsToList";
+import UpdatingDocumentTitle from "./practiceUseEffect/UpdatingDocumentTitle";
+import SimpleCounter from "./practiceUseEffect/SimpleCounter";
+import AlertOnUpdate from "./practiceUseEffect/AlertOnUpdate";
+import FetchDataFromApi from "./practiceUseEffect/FetchDataFromApi";
+import FetchData from "./practiceUseEffect/FetchDataFromApi";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Accordian /> */}
+
+      {/* <RandomColor /> */}
+
+      {/* <StarRating noOfStars={10} /> */}
+
+      {/* <BasicCounter /> */}
+
+      {/* <ToggleVisibility text="abcdefghi" /> */}
+
+      {/* <ChangeText /> */}
+
+      {/* <ToggleColor /> */}
+
+      {/* <IncrementDecrement /> */}
+
+      {/* <ToggleSwitch /> */}
+
+      {/* <CharacterCounter /> */}
+
+      {/* <AddItemsToList /> */}
+
+      {/* <ConsoleLogOnMount /> */}
+
+      {/* <UpdatingDocumentTitle /> */}
+
+      {/* <SimpleCounter /> */}
+
+      {/* <AlertOnUpdate /> */}
+
+      <FetchDataFromApi />
     </div>
   );
 }

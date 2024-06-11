@@ -1,0 +1,24 @@
+/* StarRating.css */
+.star-rating {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .star {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.star:hover {
+  color: #ffc107;  Highlight color on hover 
+} */
+
+.active {
+  color: #fff700;
+}
+
+.inactive {
+  color: #000000;
+}
